@@ -12,6 +12,7 @@
     {% if error %}
         <script> alert("{{ error }}") </script>
     {% endif %}
+    <img src="/static/all_back.jpg" class="nit" alt="nit">
     <div class="container" style="background-image: url('{{ url_for('static', filename='reg_background.jpg') }}');">
         <form method="post" action="{{ url_for('sregister') }}">
             <p><span class="error"> * Required Fields </span></p>

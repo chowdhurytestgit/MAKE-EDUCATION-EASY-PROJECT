@@ -4,11 +4,11 @@
     padding: 0;
     box-sizing:border-box;
 }
-body
-{
-    font-size: 14px;
-    background: radial-gradient(#4ea4a1, #58d7e2);
-    color:white;
+.nit{
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
 }
 .container
 {
